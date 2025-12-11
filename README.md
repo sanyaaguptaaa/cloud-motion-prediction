@@ -1,26 +1,26 @@
-# cloud-motion-prediction
-This project predicts the next cloud image frame in a short time-series using a ConvLSTM-based spatio-temporal model built in PyTorch.
-It is designed as a compact ML + Earth Observation demo for internships and portfolio use.
-Project Features:
-Generates cloud-motion sequences (synthetic dataset for demo)
-Uses a ConvLSTM architecture for temporal prediction
-Trained with L1 + SSIM loss for better structure retention
-Outputs predicted vs actual next frames
-Fully reproducible in Google Colab
-Beginner-friendly but technically solid ML project
-| File                         | Description                                           |
-| ---------------------------- | ----------------------------------------------------- |
-| `cloud_motion_project.ipynb` | Full Colab notebook (training, model, visualizations) |
-| `predicted_final.png`        | Model’s predicted next cloud frame                    |
-| `real_final.png`             | Actual next frame                                     |
-| `cloud_mini_improved.pth`    | Saved trained model weights                           |
-Tools Used:
+Cloud Motion Prediction — Mini Spatio-Temporal ML Project
+This project predicts the next cloud image frame in a short sequence using a ConvLSTM-based spatio-temporal deep learning model.
+It demonstrates understanding of temporal modeling, training pipelines, loss functions, and visualization, built fully in Google Colab.
+Project Highlights:
+Implemented a ConvLSTM architecture in PyTorch for cloud-motion forecasting
+Trained using L1 + SSIM loss for sharper structure retention
+Created a synthetic cloud-motion dataset for pipeline validation
+Produced predicted vs actual comparison visuals
+End-to-end notebook included for complete reproducibility
+Beginner-friendly but demonstrates real ML/EO capability
+Files in this repository:
+File	Description:
+cloud_motion_project.ipynb	- Full Colab notebook (data generation, model, training, inference)
+predicted_final.png	- Predicted next cloud frame
+real_final.png -	Ground-truth next frame
+cloud_mini_improved.pth -	Trained model weights
+Tech Stack:
 Python
 PyTorch
-Matplotlib
 NumPy
+Matplotlib
 Google Colab
-Author
+Author:
 Sanya Gupta
 B.Tech Geoinformatics, NSUT
 Email: guptasanya840@gmail.com
