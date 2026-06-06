@@ -22,5 +22,5 @@ Matplotlib
 Google Colab
 Author:
 Sanya Gupta
-B.Tech Geoinformatics, NSUT
+B.Tech Geoinformatics, NSUT|
 Email: guptasanya840@gmail.com
